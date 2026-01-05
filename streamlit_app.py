@@ -607,7 +607,7 @@ def main():
     
     with col_hero2:
         try:
-            st.image("assets/hero_image.png", use_container_width=True)
+            st.image("hero_image.png", use_container_width=True)
         except:
             # Fallback if image not found
             st.markdown("""
@@ -624,7 +624,7 @@ def main():
     with st.sidebar:
         # Add AI icon at top
         try:
-            st.image("assets/ai_icon.png", width=120)
+            st.image("ai_icon.png", width=120)
         except:
             st.image("https://logo.clearbit.com/tesla.com", width=100)
         
@@ -659,7 +659,7 @@ def main():
         st.markdown("### 📚 About")
         
         try:
-            st.image("assets/analytics_icon.png", width=150)
+            st.image("analytics_icon.png", width=150)
         except:
             pass
             
@@ -1188,3 +1188,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
